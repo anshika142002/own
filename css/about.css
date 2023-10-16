@@ -1,0 +1,54 @@
+.About__Us{
+    margin-top:3rem;
+}
+.About__Us-container{
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+
+}
+.About__Us-right >p{
+margin: 1.6rem 0 2.5rem;
+}
+
+.Achievements{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1.5rem;
+}
+.achievement_card{
+    background: var(--color-bg1);
+    padding:1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+    }
+.achievement_card:hover{
+    background: var(--color-bg1);
+    box-shadow: 0 3rem 3 rem rgba(0, 0, 0, 0.3);
+     
+}
+.achievement_icon{
+    background:var( --color-danger);
+    padding:0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size:2rem;
+   
+
+}
+.Achievements:nth-child(2)
+.achievement_icon{
+    background:#35A29F;
+  }
+
+
+.Achievements:nth-child(3)
+    .achievement_icon{
+        background: var(--color-bg1);
+ }
+ .achievement_card p{
+    margin-top: 1rem;
+    
+ }
